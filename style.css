@@ -1,0 +1,192 @@
+body, h1, h2, h3, p {
+    margin: 0;
+}
+
+.green {
+    color: #226C3B;
+}
+
+.white {
+    color: white;
+}
+
+h1, h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+}
+
+.project-title, p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.about-section {
+    background-color: black;
+}
+
+.link-see-more {
+    width: fit-content;
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    border-bottom: 2px solid #226C3B;
+    font-size: 2rem;
+}
+
+.contact-links h2 {
+    width: fit-content;
+    border-bottom: 2px solid #226C3B;
+    font-size: 2rem;
+    margin: auto;
+}
+
+.contact-section {
+    background-color: #B9E9C9;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.6rem;
+}
+
+.header {
+    background-color: #B9E9C9;
+    background-image: url('lotus2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20% 9% 70%;
+    text-align: center;
+}
+
+.about-section, .work-section, .contact-section {
+    padding: 10% 5%;
+}
+
+.project-title {
+    margin-top: 10%;
+    font-weight: 700;
+}
+
+.project-info, .project-image {
+    margin-top: 3%;
+}
+
+.project-image {
+    width: 100%;
+}
+
+.contact-links {
+    margin-top: 5%;
+}
+
+@media screen and (min-width: 425px) {
+    
+    .header {
+        padding-bottom: 60%;
+    }
+
+    .hero-text {
+        font-size: 2.8rem;
+    }
+
+    .project-title {
+        margin-top: 5%;
+    }
+}
+
+@media screen and (min-width: 600px) {
+
+    .hero-text, h1 {
+        font-size: 3.5rem;
+    }
+
+    .link-see-more {
+        font-size: 3rem;
+    }
+
+    .contact-links h2 {
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    .header {
+        padding-bottom: 50%;
+    }
+    
+    .hero-text {
+        font-size: 4rem;
+    }
+
+    p {
+        font-size: 1.2rem;
+    }
+
+    .project-title {
+        font-size: 2rem;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    
+    .header {
+        padding-bottom: 40%;
+    }
+
+    .hero-text {
+        font-size: 4.5rem;
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    .link-see-more, .contact-links h2 {
+        font-size: 3rem;
+    }
+
+    .contact-links, .projects {
+        display: flex;
+    }
+
+    .project-title, .project-image {
+        margin: 0;
+    }
+
+    .projects {
+        margin-top: 5%;
+    }
+
+    .flex-left {
+        padding-right: 4%;
+        width: 65%;
+    }
+
+    .about-section, .work-section, .contact-section {
+        padding: 5%;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    
+    .hero-text {
+        font-size: 5.5rem;
+    }
+
+    h1 {
+        font-size: 5rem;
+    }
+
+    .link-see-more, .contact-links h2 {
+        font-size: 4rem;
+    }
+
+    .project-title {
+        font-size: 3rem;
+    }
+
+    p {
+        font-size: 1.7rem;
+    }
+}
