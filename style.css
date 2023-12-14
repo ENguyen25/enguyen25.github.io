@@ -1,5 +1,9 @@
-body, h1, h2, h3, p {
+body, h1, h2, p {
     margin: 0;
+}
+
+a {
+    text-decoration: none;
 }
 
 .green {
@@ -10,9 +14,13 @@ body, h1, h2, h3, p {
     color: white;
 }
 
-h1, h2 {
+h1, h2, h3 {
     font-family: 'Playfair Display', serif;
     font-weight: 400;
+}
+
+h3 {
+    font-size: 3rem;
 }
 
 .project-title, p {
@@ -21,6 +29,39 @@ h1, h2 {
 
 .about-section {
     background-color: black;
+}
+
+.learn-more, .source-code {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #226C3B;
+    padding: 0.5rem 2rem;
+}
+
+.learn-more {
+    margin: 5% 0;
+    border: solid 2px #226C3B;
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.learn-more:hover {
+    background-color: #226C3B;
+    color: white;
+    cursor: pointer;
+}
+
+.source-code {
+    margin: 5% 2%;
+    border: solid 2px white;
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.source-code:hover {
+    cursor: pointer;
+    border: solid 2px #226C3B;
+
 }
 
 .link-see-more {
@@ -32,11 +73,21 @@ h1, h2 {
     font-size: 2rem;
 }
 
-.contact-links h2 {
+.contact-link {
     width: fit-content;
     border-bottom: 2px solid #226C3B;
     font-size: 2rem;
     margin: auto;
+}
+
+.contact-links a {
+    text-decoration: none;
+    color: #226C3B;
+}
+
+.contact-links a:hover {
+    color: white;
+    cursor: pointer;
 }
 
 .contact-section {
@@ -50,10 +101,10 @@ h1 {
 
 .header {
     background-color: #B9E9C9;
-    background-image: url('lotus2.png');
+    background-image: url('images/lotus2.png');
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 20% 9% 70%;
+    padding: 10% 9% 70%;
     text-align: center;
 }
 
@@ -76,6 +127,36 @@ h1 {
 
 .contact-links {
     margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.project-header {
+    padding: 10% 10% 5%;
+    background-color: #B9E9C9;
+}
+
+.project-body {
+    padding: 5% 10%;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.content {
+    margin: 2rem 0;
+}
+
+.image-container {
+    width: 100%;
+    text-align: center;
+}
+
+.demo-image {
+    width: 80%;
+    margin-bottom: 1rem;
 }
 
 @media screen and (min-width: 425px) {
