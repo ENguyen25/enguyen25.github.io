@@ -7,28 +7,21 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&family=Playfair+Display:wght@400;500&display=swap" rel="stylesheet">
-    <title>FabricFeed</title>
+    <title>FlowerFeed</title>
 </head>
 <body>
     <section class="project-header">
-        <h1 class="title">FabricFeed</h1>
-        <p>FabricFeed is an online marketplace for textile recyclers and waste collectors to buy and sell textile waste bins. I developed the front-end of the mobile-responsive application using Django, JavaScript, and CSS.</p>
+        <h1 class="title">FlowerFeed</h1>
+        <p>FlowerFeed is an online marketplace for florists and farmers of native flowers to connect. I developed the front-end and back-end of the mobile-responsive application using Django, JavaScript, and CSS.</p>
     </section>
     <section class="project-body">
-        <div class="image-container">
-            <img class="demo-image" src="images/fabricfeed.gif" alt="animated demo of fabricfeed">
+        <div class="video-container">
+            <iframe class="responsive-iframe" src="https://www.youtube.com/embed/JwVACJvy3TU"></iframe>
         </div>
         <p class="content">I entered a 30-day test pilot program with the startup company. My assignment was to build the front-end of the registration page based on the Figma provided by the UX design team. I finished the assignment in 3 weeks instead of the month, and quickly moved on to building the front-end of the marketplace homepage.</p>
-        <div class="image-container">
-            <img class="demo-image" src="images/homepage.jpg" alt="fabricfeed homepage">
-            <img class="demo-image" src="images/modal.jpg" alt="homepage modal">
-            <img class="demo-image" src="images/marketplace.gif" alt="animated demo of fabricfeed">
-        </div>
         <p class="content">For the marketplace homepage, I refactored the code so that it was mobile-responsive. Before the refactor, the elements were squished together and did not scale on mobile-view. I added a mobile sidebar for when the screen size is 900px that could be toggled with a hamburger menu. I also added a modal popup of the company profile when you click the company name on an item listing. I edited the UX of the listings to match the new design.</p>
-        <div class="image-container">
-            <img class="demo-image" src="images/signin-page.gif" alt="fabricfeed homepage">
-        </div>
         <p class="content">After the design was made for the sign-in page, I developed the sign-in page with CSS and JavaScript. Starting from mobile-view, I progressively made it responsive to larger devices.</p>
+        <p class="content">Then I built the chat functionality using Django channels and WebSocket. I built the models for chat messages, chatrooms, and connection requests. I built the front-end for the messaging portion, so that users can send a message to any company they want and start chatting.</p>
     </section>
 </body>
 </html>
