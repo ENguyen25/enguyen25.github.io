@@ -177,6 +177,10 @@ h1 {
     height: 100%;
 }
 
+#prop-dash {
+    width: -webkit-fill-available;
+}
+
 @media screen and (min-width: 425px) {
     
     .header {
@@ -283,15 +287,15 @@ h1 {
 @media screen and (min-width: 1440px) {
     
     .hero-text {
-        font-size: 5.5rem;
-    }
-
-    h1 {
         font-size: 5rem;
     }
 
+    h1 {
+        font-size: 4.5rem;
+    }
+
     .link-see-more, .contact-links h2 {
-        font-size: 4rem;
+        font-size: 3.5rem;
     }
 
     .project-title {
@@ -299,6 +303,6 @@ h1 {
     }
 
     p {
-        font-size: 1.7rem;
+        font-size: 1.4rem;
     }
 }

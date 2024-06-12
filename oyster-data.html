@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&family=Playfair+Display:wght@400;500&display=swap" rel="stylesheet">
+    <title>Oyster Data</title>
+</head>
+<body>
+    <section class="project-header">
+        <h1 class="title">Oyster Data</h1>
+        <p>Oyster Data is an LLM-based platform that centralizes property data across multiple portfolios and generates actionable items for property maintenance.</p>
+    </section>
+    <section class="project-body">
+        <p class="content">I was the only front-end engineer for Oyster Data, building the React portion of the application from conception to demo in only 4 months. Not only was I the main developer on React, I was in charge of integrating all of our APIs to the application. I even stepped into the backend role as necessary to optimize product development efficiency.</p>
+        <p class="content">There were 4 major pages/views to develop: the <b>portfolio dashboard</b>, the <b>property dashboard</b>, the <b>user management page</b>, and the <b>modal to add a service entry</b>.</p>
+        <h3>Portfolio Dashboard</h3>
+        <img id="prop-dash" src="images/recording1.gif" alt="oyster data portfolio dashboard">
+        <p class="content">The portfolio dashboard is the first page a property manager sees when they first log into the platform. They see a list of properties within their portfolio with surface-level details about the property, and they can sort the properties by different categories. They are able to filter through their properties with any search term. I built the entire UI and functionality of the property dashboard, rendering all action items and incorporating a link to the individual property dashboard. I also built the APIs that count existing action items by priority and filter through the properties.</p>
+        <h3>Property Dashboard</h3>
+        <img id="prop-dash" src="images/recording2.gif" alt="oyster data property dashboard">
+        <p class="content">The property dashboard is the center of information for a particular property. Users can view overarching property information such as address, number of bedrooms and bathrooms, sale price, sale date and estimated value. The Home Catalog section conveys information from an inspection report about a property's appliances and systems. The appliance section conveys dynamic information about actions that need to be taken, existing warranties, and manuals. Depending on the status of an action item, the item is redirected to a card labeled 'Pending,' 'Postponed,' or 'Ignored.' The property dashboard keeps track of all the actions that need to be taken to maintain a property.</p>
+        <p class="content">Users can also maintain a library of property documents. They can upload documents and view them anytime they want.</p>
+        <h3>Add Service Entry</h3>
+        <p class="content">To take action on these action items, users can click an action item and view details related to the task: warranty information, what the issue is, and previous services done on the appliance/system. If an action has been taken, they can record this with a new service entry.</p>
+        <h3>Manage Users</h3>
+        <img id="prop-dash" src="images/recording3.gif" alt="oyster data property dashboard">
+        <p class="content">Administrators can add new users on the 'Users' page.</p>
+    </section>
+</body>
+</html>
